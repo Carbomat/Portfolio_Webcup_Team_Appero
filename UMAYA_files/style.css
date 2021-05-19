@@ -173,7 +173,7 @@ body { background: #E9E5E2;margin:2%; }
 
 #SkillBox {
     font-size: 20px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Montserrat', cursive;
     width: 95%;
     height: auto;
     margin: 40px auto;
@@ -200,48 +200,48 @@ body { background: #E9E5E2;margin:2%; }
     margin: 20px auto;
 }
 #Skill-HTML {
-    width: 100%;
-    animation: Animate-HTML 4s;
-    -webkit-animation: Animate-HTML 4s;
-    -moz-animation: Animate-HTML 4s;
-    -o-animation: Animate-HTML 4s;
-    height: 50px;
+    animation: Animate-CSS 5s;
+    -webkit-animation: Animate-CSS 5s;
+    -moz-animation: Animate-CSS 5s;
+    -o-animation: Animate-CSS 5s;
+    width: 70%;
+    height: 10px;
     position: absolute;
-    background-color: #ea8564;
+    background-color: #d20120;
 }
-@keyframes Animate-HTML {
+@keyframes Animate-CSS {
     from {
     width: 10px;
 }
 to {
-    width: 100%}
-}@-webkit-keyframes Animate-HTML {
+    width: 70%}
+}@-webkit-keyframes Animate-CSS {
     from {
     width: 10px;
 }
 to {
-    width: 100%}
-}@-moz-keyframes Animate-HTML {
+    width: 70%}
+}@-moz-keyframes Animate-CSS {
     from {
     width: 10px;
 }
 to {
-    width: 100%}
-}@-o-keyframes Animate-HTML {
+    width: 70%}
+}@-o-keyframes Animate-CSS {
     from {
     width: 10px;
 }
 to {
-    width: 100%}
+    width: 70%}
 }#Skill-CSS {
     animation: Animate-CSS 5s;
     -webkit-animation: Animate-CSS 5s;
     -moz-animation: Animate-CSS 5s;
     -o-animation: Animate-CSS 5s;
     width: 70%;
-    height: 50px;
+    height: 10px;
     position: absolute;
-    background-color: #55a69f;
+    background-color: #d20120;
 }
 @keyframes Animate-CSS {
     from {
@@ -272,79 +272,78 @@ to {
     -webkit-animation: Animate-jQuery 5s;
     -moz-animation: Animate-jQuery 5s;
     -o-animation: Animate-jQuery 5s;
-    width: 40%;
-    height: 50px;
+    width: 80%;
+    height: 10px;
     position: absolute;
-    background-color: #99856d;
+    background-color: #d20120;
 }
 @keyframes Animate-jQuery {
     from {
     width: 10px;
 }
 to {
-    width: 40%}
+    width: 80%}
 }@-webkit-keyframes Animate-jQuery {
     from {
     width: 10px;
 }
 to {
-    width: 40%}
+    width: 80%}
 }@-moz-keyframes Animate-jQuery {
     from {
     width: 10px;
 }
 to {
-    width: 40%}
+    width: 80%}
 }@-o-keyframes Animate-jQuery {
     from {
     width: 10px;
 }
 to {
-    width: 40%}
+    width: 80%}
 }#Skill-JS {
+    width: 100%;
+    animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 10px;
+    position: absolute;
+    background-color: #d20120;
+}
+@keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-webkit-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-moz-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-o-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}#Skill-Pres {
     animation: Animate-JS 4s;
     -webkit-animation: Animate-JS 4s;
     -moz-animation: Animate-JS 4s;
     -o-animation: Animate-JS 4s;
     width: 65%;
-    height: 50px;
+    height: 10px;
     position: absolute;
-    background-color: #c44e45;
-}
-@keyframes Animate-JS {
-    from {
-    width: 10px;
-}
-to {
-    width: 65%}
-}@-webkit-keyframes Animate-JS {
-    from {
-    width: 10px;
-}
-to {
-    width: 65%}
-}@-moz-keyframes Animate-JS {
-    from {
-    width: 10px;
-}
-to {
-    width: 65%}
-}@-o-keyframes Animate-JS {
-    from {
-    width: 10px;
-}
-to {
-    width: 65%}
-}
-#Skill-Pres {
-    animation: Animate-JS 4s;
-    -webkit-animation: Animate-JS 4s;
-    -moz-animation: Animate-JS 4s;
-    -o-animation: Animate-JS 4s;
-    width: 65%;
-    height: 50px;
-    position: absolute;
-    background-color: #c44e45;
+    background-color: #d20120;
 }
 @keyframes Animate-JS {
     from {
@@ -380,8 +379,8 @@ to {
     margin-left: 15px;
     text-shadow: none;
     color: #fff;
-    //font-family: Lato-Regular, sans-serif;
-    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
 }
 .PercentText {
     z-index: 3;
@@ -391,8 +390,8 @@ to {
     float: right;
     text-shadow: none;
     color: #fff;
-    //font-family: Lato-Regular, sans-serif;
-    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
 }
 
 /*================================================================================
